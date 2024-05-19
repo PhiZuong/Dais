@@ -1,0 +1,19 @@
+print("""Python Interpreter ver: 3.11.4
+AI ver:V2 Alpha""")
+#Version info
+username = input("Username:")
+#Username
+amount = "5"
+print("Amount of information available: " + amount)
+print("Hi " + username + ", i'm Dais (Documents and Information searcher)")
+#This is copy from Dais v1 alpha
+
+while True:
+ print("""Catagorys:
+	Astronomy
+	Biology
+	Chemistry
+	Physics
+	Others...""")
+	
+ catagory = input("Catagory:")
