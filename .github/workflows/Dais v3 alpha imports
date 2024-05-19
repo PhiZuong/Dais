@@ -1,0 +1,7 @@
+import sys
+path = sys.path.append("/storage/emulated/0/Python/Dais/Dais_libs/")
+from Dais_infolibs import module_ver
+from Dais_infolibs import aiinfos
+from Dais_infolibs import greetings
+from Dais_infolibs import bold
+#import module
