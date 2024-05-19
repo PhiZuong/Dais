@@ -1,0 +1,50 @@
+#You can use this as a source 
+print("""Python Interpreter ver: 3.11.4
+AI ver:V1 Alpha""")
+#Version info
+username = input("Username:")
+#Username
+amount = "5"
+print("Amount of information available: " + amount)
+print("Hi " + username + ", i'm Dais (Documents and Information searcher)")
+print("Type in to search.eg: Python")
+#introducetion
+while True:
+ search = input("search:")
+ #search use for every info variable,eg: if search == "blahblahblah"
+ 
+ if search == "Dais":
+  print("Dais(Documents and Information searcher) is an AI created by Nguyễn Hoàng Phi Dương")
+ #use for every info
+ elif search == "Documents and Information Searcher":
+  print("Dais(Documents and Information searcher) is an AI created by Nguyễn Hoàng Phi Dương")
+  
+ if search == "Nguyễn Hoàng Phi Dương":
+  print("""Nguyễn Hoàng Phi Dương is a Vietnamese Designer,Artist and a Programmer.Nguyễn Hoàng Phi Dương is a Vietnamese male born in 2012 at Vietnam.He develop Dais (Documents and Information searcher) in 2024.""")
+ elif search == "Nguyen Hoang Phi Duong":
+    print("""Nguyễn Hoàng Phi Dương is a Vietnamese Designer,Artist and a Programmer.Nguyễn Hoàng Phi Dương is a Vietnamese male born in 2012 at Vietnam.He develop Dais (Documents and Information searcher) in 2024.""")
+  
+ if search == "Apple":
+  print("There are two sections for (Apple)")
+  print("""Choose a section to read infomation:
+  	Apple(company)
+  	Apple(plant/fruit)
+write out the section with () eg: Apple(company)""")
+  section = input("section:")
+  if section == "Apple(company)":
+   print("Apple Inc. (formerly Apple Computer, Inc.) is an American multinational corporation and technology company headquartered in Cupertino, California, in Silicon Valley. It designs, develops, and sells consumer electronics, computer software, and online services. Devices include the iPhone, iPad, Mac, Apple Watch, Vision Pro, and Apple TV; operating systems include iOS, iPadOS, and macOS; and software applications and services include iTunes, iCloud, Apple Music, and Apple TV+.")
+  if section == "Apple(plant/fruit)":
+   print("An apple is a round, edible fruit produced by an apple tree (Malus spp., among them the domestic or orchard apple; Malus domestica). Apple trees are cultivated worldwide and are the most widely grown species in the genus Malus. The tree originated in Central Asia, where its wild ancestor, Malus sieversii, is still found. Apples have been grown for thousands of years in Eurasia and were introduced to North America by European colonists. Apples have religious and mythological significance in many cultures, including Norse, Greek, and European Christian tradition.")
+   print("Apples grown from seed tend to be very different from those of their parents, and the resultant fruit frequently lacks desired characteristics. For commercial purposes, including botanical evaluation, apple cultivars are propagated by clonal grafting onto rootstocks. Apple trees grown without rootstocks tend to be larger and much slower to fruit after planting. Rootstocks are used to control the speed of growth and the size of the resulting tree, allowing for easier harvesting.")
+   print("There are more than 7,500 cultivars of apples. Different cultivars are bred for various tastes and uses, including cooking, eating raw, and cider or apple juice production. Trees and fruit are prone to fungal, bacterial, and pest problems, which can be controlled by a number of organic and non-organic means. In 2010, the fruit's genome was sequenced as part of research on disease control and selective breeding in apple production.")
+   print("From 2014 to 2023, there have been an average of 78 million tonnes of apples globally produced per year. In 2023, the worldwide production of apples was 83 million tonnes, with China accounting for nearly half of the total.")
+    #I admit,I hate this section thing
+    
+ if search == "Python":
+  print("Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.")
+  print("""Python is dynamically typed and garbage-collected. It supports multiple programming paradigms, including structured (particularly procedural), object-oriented and functional programming. It is often described as a "batteries included" language due to its comprehensive standard library.""")
+  print("Guido van Rossum began working on Python in the late 1980s as a successor to the ABC programming language and first released it in 1991 as Python 0.9.0. Python 2.0 was released in 2000. Python 3.0, released in 2008, was a major revision not completely backward-compatible with earlier versions. Python 2.7.18, released in 2020, was the last release of Python 2.")
+  print("Python consistently ranks as one of the most popular programming languages, and has gained widespread use in the machine learning community.")
+ 
+ 
+#secret:Dais is an upgrade version of my past projects,you can say Dais a "Pile of trash" eh?
