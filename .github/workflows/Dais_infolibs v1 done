@@ -1,0 +1,90 @@
+import sys
+
+def module_ver():
+ print("Dais info libraly version:v1")
+#first to do
+
+def bold(type): 
+ sys.stdout.write("\033[1m" + type + "\033[0m")
+#font func
+
+def aiinfos():
+ info = """Python Interpreter ver: 3.11.4
+AI ver:V2 Alpha"""
+ print(info)
+def greetings():
+ username = input("Please enter your username:")
+ print("Greetings," + username + ",I'm Dais (Documents and Information searcher)")
+#Main func
+ 
+def apple():
+ info = """
+ 
+ An apple is a round, edible fruit produced by an apple tree (Malus spp., among them the domestic or orchard apple; Malus domestica). Apple trees are cultivated worldwide and are the most widely grown species in the genus Malus. The tree originated in Central Asia, where its wild ancestor, Malus sieversii, is still found. Apples have been grown for thousands of years in Eurasia and were introduced to North America by European colonists. Apples have religious and mythological significance in many cultures, including Norse, Greek, and European Christian tradition.
+   Apples grown from seed tend to be very different from those of their parents, and the resultant fruit frequently lacks desired characteristics. For commercial purposes, including botanical evaluation, apple cultivars are propagated by clonal grafting onto rootstocks. Apple trees grown without rootstocks tend to be larger and much slower to fruit after planting. Rootstocks are used to control the speed of growth and the size of the resulting tree, allowing for easier harvesting.
+   There are more than 7,500 cultivars of apples. Different cultivars are bred for various tastes and uses, including cooking, eating raw, and cider or apple juice production. Trees and fruit are prone to fungal, bacterial, and pest problems, which can be controlled by a number of organic and non-organic means. In 2010, the fruit's genome was sequenced as part of research on disease control and selective breeding in apple production.
+From 2014 to 2023, there have been an average of 78 million tonnes of apples globally produced per year. In 2023, the worldwide production of apples was 83 million tonnes, with China accounting for nearly half of the total."""
+ bold("Apple")
+ print(info)
+ return
+ 
+def appleinc():
+ info = """
+ 
+ Apple Inc. (formerly Apple Computer, Inc.) is an American multinational corporation and technology company headquartered in Cupertino, California, in Silicon Valley. It designs, develops, and sells consumer electronics, computer software, and online services. Devices include the iPhone, iPad, Mac, Apple Watch, Vision Pro, and Apple TV; operating systems include iOS, iPadOS, and macOS; and software applications and services include iTunes, iCloud, Apple Music, and Apple TV+.
+ For most of 2011 to 2024, Apple became the world's largest company by market capitalization until Microsoft assumed the position in January 2024. In 2022, Apple was the largest technology company by revenue, with US$394.3 billion.[failed verification] As of 2023, Apple was the fourth-largest personal computer vendor by unit sales, the largest manufacturing company by revenue, and the largest vendor of mobile phones in the world. It is one of the Big Five American information technology companies, alongside Alphabet (the parent company of Google), Amazon, Meta (the parent company of Facebook), and Microsoft.
+ Apple was founded as Apple Computer Company on April 1, 1976, to produce and market Steve Wozniak's Apple I personal computer. The company was incorporated by Wozniak and Steve Jobs in 1977. Its second computer, the Apple II, became a best seller as one of the first mass-produced microcomputers. Apple introduced the Lisa in 1983 and the Macintosh in 1984, as some of the first computers to use a graphical user interface and a mouse. By 1985, the company's internal problems included the high cost of its products and power struggles between executives. That year Jobs left Apple to form NeXT, Inc., and Wozniak withdrew to other ventures. The market for personal computers expanded and evolved throughout the 1990s, and Apple lost considerable market share to the lower-priced Wintel duopoly of the Microsoft Windows operating system on Intel-powered PC clones.
+ In 1997, Apple was weeks away from bankruptcy. To resolve its failed operating system strategy and entice Jobs's return, it bought NeXT. Over the next decade, Jobs guided Apple back to profitability through several tactics including introducing the iMac, iPod, iPhone, and iPad to critical acclaim, launching the "Think different" campaign and other memorable advertising campaigns, opening the Apple Store retail chain, and acquiring numerous companies to broaden its product portfolio. Jobs resigned in 2011 for health reasons, and died two months later. He was succeeded as CEO by Tim Cook.
+Apple has received criticism regarding its contractors' labor practices, its environmental practices, and its business ethics, including anti-competitive practices and materials sourcing. Nevertheless, it has a large following and a high level of brand loyalty. It has been consistently ranked as one of the world's most valuable brands.
+Apple became the first publicly traded U.S. company to be valued at over $1 trillion in August 2018, then at $2 trillion in August 2020, and at $3 trillion in January 2022. In June 2023, it was valued at just over $3 trillion."""
+ bold("Apple Inc")
+ print(info)
+ return
+ 
+def python():
+ info = """
+ 
+ Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.Python is dynamically typed and garbage-collected. It supports multiple programming paradigms, including structured (particularly procedural), object-oriented and functional programming. It is often described as a "batteries included" language due to its comprehensive standard library.Guido van Rossum began working on Python in the late 1980s as a successor to the ABC programming language and first released it in 1991 as Python 0.9.0. Python 2.0 was released in 2000. Python 3.0, released in 2008, was a major revision not completely backward-compatible with earlier versions. Python 2.7.18, released in 2020, was the last release of Python 2.Python consistently ranks as one of the most popular programming languages, and has gained widespread use in the machine learning community."""
+ bold("Python")
+ print(info)
+ return
+ 
+def wikipedia():
+ info = """
+ 
+ Wikiedia is a free content online encyclopedia written and maintained by a community of volunteers, known as Wikipedians, through open collaboration and the use of the wiki-based editing system MediaWiki. Wikipedia is the largest and most-read reference work in history. It is consistently ranked as one of the ten most popular websites in the world, and as of 2024 is ranked the fifth most visited website on the Internet by Semrush, and second by Ahrefs. Founded by Jimmy Wales and Larry Sanger on January 15, 2001, Wikipedia is hosted by the Wikimedia Foundation, an American nonprofit organization that employs a staff of over 700 people.Initially only available in English, editions in other languages have been developed. Wikipedia's editions, when combined, comprise more than 63 million articles, attracting around 2 billion unique device visits per month and more than 14 million edits per month (about 5.2 edits per second on average) as of November 2023. Roughly 26% of Wikipedia's traffic is from the United States, followed by Japan at 5.9%, the United Kingdom at 5.4%, Germany at 5%, Russia at 4.8%, and the remaining 54% split among other countries, according to data provided by Similarweb.
+Wikipedia has been praised for its enablement of the democratization of knowledge, extent of coverage, unique structure, and culture. It has been criticized for exhibiting systemic bias, particularly gender bias against women and geographical bias against the Global South (Eurocentrism).[failed verification] While the reliability of Wikipedia was frequently criticized in the 2000s, it has improved over time, receiving greater praise from the late 2010s onward while becoming an important fact-checking site.
+Wikipedia has been censored by some national governments, ranging from specific pages to the entire site. Articles on breaking news are often accessed as sources for frequently updated information about those events.
+
+ This is where Dais information come from"""
+ bold("Wikipedia")
+ print(info)
+ 
+def dais():
+ info = """
+ 
+ Dais is an AI develop with only 1 person
+Dais created in 2024 with no modules by PhiZuong to search information,after 5 hour of development,PhiZuong make Dais_infolibs module to get the information less buggy,after Dais v3 alpha releases ,PhiZuong turn Dais to an AI with many functions including the Dais information search."""
+ bold("Dais")
+ print(info)
+ return
+ 
+def plants():
+ info = """
+ 
+ Plants are the eukaryotes that form the kingdom Plantae; they are predominantly photosynthetic. This means that they obtain their energy from sunlight, using chloroplasts derived from endosymbiosis with cyanobacteria to produce sugars from carbon dioxide and water, using the green pigment chlorophyll. Exceptions are parasitic plants that have lost the genes for chlorophyll and photosynthesis, and obtain their energy from other plants or fungi.Historically, as in Aristotle's biology, the plant kingdom encompassed all living things that were not animals, and included algae and fungi. Definitions have narrowed since then; current definitions exclude the fungi and some of the algae. By the definition used in this article, plants form the clade Viridiplantae (green plants), which consists of the green algae and the embryophytes or land plants (hornworts, liverworts, mosses, lycophytes, ferns, conifers and other gymnosperms, and flowering plants). A definition based on genomes includes the Viridiplantae, along with the red algae and the glaucophytes, in the clade Archaeplastida.There are about 380,000 known species of plants, of which the majority, some 260,000, produce seeds. They range in size from single cells to the tallest trees. Green plants provide a substantial proportion of the world's molecular oxygen; the sugars they create supply the energy for most of Earth's ecosystems and other organisms, including animals, either consume plants directly or rely on organisms which do so.
+Grain, fruit, and vegetables are basic human foods and have been domesticated for millennia. People use plants for many purposes, such as building materials, ornaments, writing materials, and, in great variety, for medicines. The scientific study of plants is known as botany, a branch of biology."""
+ bold("Plant (Plantae)")
+ print(info)
+ return
+ 
+def animal():
+ info = """
+ 
+ Animals are multicellular, eukaryotic organisms in the biological kingdom Animalia (/ˌænɪˈmɑːljəˌ -i.ə/), With few exceptions, animals consume organic material, breathe oxygen, have myocytes and are able to move, can reproduce sexually, and grow from a hollow sphere of cells, the blastula, during embryonic development. Animals form a clade, meaning that they arose from a single common ancestor.Over 1.5 million living animal species have been described, of which around 1.05 million are insects, over 85,000 are molluscs, and around 65,000 are vertebrates. It has been estimated there are as many as 7.77 million animal species on Earth. Animal body lengths range from 8.5 μm (0.00033 in) to 33.6 m (110 ft). They have complex ecologies and interactions with each other and their environments, forming intricate food webs. The scientific study of animals is known as zoology, and the study of animal behaviors is known as ethology.
+Most living animal species belong to the infrakingdom Bilateria, a highly proliferative clade whose members have a bilaterally symmetric body plan. The vast majority belong to two large superphyla: the protostomes, which includes organisms such as the arthropods, molluscs, flatworms, annelids and nematodes; and the deuterostomes, which include the echinoderms, hemichordates and chordates, the latter of which contains the vertebrates. The simple Xenacoelomorpha have an uncertain position within Bilateria.
+Animals first appear in the fossil record in the late Cryogenian period, and diversified in the subsequent Ediacaran. Earlier evidence of animals is still controversial; the sponge-like organism Otavia has been dated all the way back to the Tonian period, but its identity as an animal is heavily contested. Nearly all modern animal phyla became clearly established in the fossil record as marine species during the Cambrian explosion, which began around 539 million years ago (Mya), and most classes during the Ordovician radiation 485.4 Mya. 6,331 groups of genes common to all living animals have been identified; these may have arisen from a single common ancestor that lived about 650 Mya during the Cryogenian period.
+Historically, Aristotle divided animals into those with blood and those without. Carl Linnaeus created the first hierarchical biological classification for animals in 1758 with his Systema Naturae, which Jean-Baptiste Lamarck expanded into 14 phyla by 1809. In 1874, Ernst Haeckel divided the animal kingdom into the multicellular Metazoa (now synonymous with Animalia) and the Protozoa, single-celled organisms no longer considered animals. In modern times, the biological classification of animals relies on advanced techniques, such as molecular phylogenetics, which are effective at demonstrating the evolutionary relationships between taxa.
+Humans make use of many other animal species for food (including meat, eggs and dairy products), for materials (such as leather, fur and wool), as pets and as working animals for transportation, and services. Dogs, the first domesticated animal, have been used in hunting, in security and in warfare, as have horses, pigeons and birds of prey, while other terrestrial and aquatic animals are hunted for sports, trophies or profits. Non-human animals are also an important cultural element of human evolution, having appeared in cave arts and totems since the earliest times, and are frequently featured in mythology, religion, arts, literature, heraldry, politics and sports."""
+ bold("Animal (Animalia)")
+ print(info)
