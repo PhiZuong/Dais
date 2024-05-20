@@ -1,0 +1,67 @@
+import sys
+path = sys.path.append("Dais_libs")
+from Dais_infolibs import module_ver
+from Dais_infolibs import aiinfos
+from Dais_infolibs import greetings
+from Dais_infolibs import bold
+#need Dais_infolibs!!
+#import module
+module_ver()
+aiinfos()
+
+greetings()
+print("")
+print("""Catagorys:
+	Astronomy
+	Biology
+	Chemistry
+	Physics
+	Others""")	
+while True:
+ print("")
+ catagory = input("Choose a catagory:")
+
+ if catagory == "Astronomy":
+  print("Sorry,We still dont have information for this catagory.")
+  
+ if catagory == "Biology":
+  print("""there is information(s) in this catagory:
+  	Apple
+  	Plant
+  	Animal""")
+  search = input("Search:")
+  if search == "Apple":
+   from Dais_infolibs import apple
+   apple()
+  if search == "Plant":
+   from Dais_infolibs import plants
+   plants()
+  if search == "Animal":
+   from Dais_infolibs import animal
+   animal()
+   
+ if catagory == "Chemistry":
+  print("Sorry,We still dont have information for this catagory.")
+ 
+ if catagory == "Physics":
+  print("Sorry,We still dont have information for this catagory.")
+  
+ if catagory == "Others":
+  print("""there is information(s) in this catagory:
+  	Dais
+  	Python
+  	Wikipedia
+  	Apple Inc""")
+  search = input("Search:")
+  if search == "Dais":
+   from Dais_infolibs import dais
+   dais()
+  if search == "Apple Inc":
+   from Dais_infolibs import appleinc
+   appleinc()
+  if search == "Wikipedia":
+   from Dais_infolibs import wikipedia
+   wikipedia()
+  if search == "Python":
+   from Dais_infolibs import python
+   python()
