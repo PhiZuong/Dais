@@ -1,0 +1,8 @@
+while True:
+ print("""Choose Function
+   Info Search
+   
+   
+Quit  """)
+ print("")
+ func = input("Function: ")
